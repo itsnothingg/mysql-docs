@@ -20,3 +20,8 @@ it will change the charset of the whole tables
 ### Ugrading Version
 `mysql_upgrade --skip-version-check --force -u root` 
 http://blog.naver.com/PostView.nhn?blogId=bomyzzang&logNo=178666700
+
+### User password update
+`update user set authentication_string=password('2261bbs') where user='root';`  
+http://kogun82.tistory.com/122
+
