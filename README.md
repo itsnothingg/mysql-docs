@@ -16,3 +16,6 @@ and copy the result and execute.
 it will change the charset of the whole tables
 5. drop and recreate all routines manually. (please PR if you have any one-liner solution or query for this step)
 6. reboot the database and done.
+
+### Ugrading Version
+http://blog.naver.com/PostView.nhn?blogId=bomyzzang&logNo=178666700
