@@ -18,4 +18,5 @@ it will change the charset of the whole tables
 6. reboot the database and done.
 
 ### Ugrading Version
+`mysql_upgrade --skip-version-check --force -u root` 
 http://blog.naver.com/PostView.nhn?blogId=bomyzzang&logNo=178666700
