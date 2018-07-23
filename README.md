@@ -22,6 +22,7 @@ it will change the charset of the whole tables
 http://blog.naver.com/PostView.nhn?blogId=bomyzzang&logNo=178666700
 
 ### User password update
-`update user set authentication_string=password('2261bbs') where user='root';`  
-http://kogun82.tistory.com/122
+`ALTER USER user IDENTIFIED BY 'auth_string';`    
+https://dev.mysql.com/doc/refman/8.0/en/set-password.html
 
+### Installing ing mac (homebrew)
